@@ -35,20 +35,21 @@ html{
     height: 50%;
     margin: 0px;
     padding: 0px;
-    border-color: 1px solid black;
+    border-color: 1px solid rgb(255, 255, 255);
 
 }
 
 .bloque2 .col-50:nth-child(1) div{
     width: 80%;
     margin: 90px auto;
+    margin-top: 40px;
 }
 
 .bloque2 .col-50:nth-child(2) div{
     width: 80%;
     margin: 90px auto;
+    margin-top: 90px;
 }
-
 .bloque2 .col-50 div a{
     text-decoration: none;
     font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
@@ -65,4 +66,10 @@ html{
 
 p {
 text-align: justify;
+}
+
+.bloque2 .col-50:nth-child(2) img{
+    width: 55%;
+    height: 55%;
+    margin-top: 20px;
 }
